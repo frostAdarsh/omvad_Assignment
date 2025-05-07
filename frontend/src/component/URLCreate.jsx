@@ -1,7 +1,7 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import React, { useState } from "react";
 import toast from "react-hot-toast";
-import { createURL } from "../src/lib/api";
+import { createURL } from "../lib/api";
 
 const URLCreate = () => {
   const [url, setUrl] = useState("");

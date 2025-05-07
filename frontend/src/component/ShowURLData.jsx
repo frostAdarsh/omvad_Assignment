@@ -1,5 +1,5 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { getAllURL, removeURL } from "../src/lib/api";
+import { getAllURL, removeURL } from "../lib/api";
 import toast from "react-hot-toast";
 import { Trash2 } from 'lucide-react';
 import { LoaderCircle } from 'lucide-react';

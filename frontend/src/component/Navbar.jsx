@@ -3,7 +3,8 @@ import { DatabaseZap } from "lucide-react";
 
 import { toast } from "react-hot-toast";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { logout } from "../src/lib/api";
+import { logout } from "../lib/api";
+
 
 const Navbar = () => {
  
