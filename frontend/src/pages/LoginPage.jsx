@@ -33,7 +33,7 @@ const LoginPage = () => {
   return (
     <div className="h-screen flex items-center justify-center bg-gray-50 px-4">
       <div className="border border-gray-200 bg-white flex flex-col lg:flex-row w-full max-w-5xl mx-auto rounded-2xl shadow-md overflow-hidden">
-        {/* Left Side - Form */}
+        
         <div className="w-full lg:w-1/2 p-6 sm:p-10 flex flex-col justify-center">
           <div className="mb-6 flex items-center justify-center gap-2">
             <DatabaseZap className="size-8 text-green-400/40" />
@@ -100,7 +100,7 @@ const LoginPage = () => {
           </form>
         </div>
 
-        {/* Right Side - Image */}
+        
         <div className="hidden lg:flex w-full lg:w-1/2 items-center justify-center">
           <div className="max-w-sm p-8">
             <img src="/pic1.svg" alt="Illustration" className="w-full h-auto" />

@@ -16,8 +16,15 @@ const App = () => {
     queryKey: ["authUser"],
 
     queryFn: async () => {
-      const res = await axiosInstance.get("/auth/me");
-      return res.data;
+     
+      try {
+        const res = await axiosInstance.get("/auth/me");
+        return res.data;
+      } catch (error) {
+        
+        return null
+      }
+
     },
     retry: false,
   });
