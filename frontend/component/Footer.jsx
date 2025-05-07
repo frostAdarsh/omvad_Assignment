@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-white border-t border-gray-200 text-gray-600 py-4 mt-10">
-      <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between text-sm">
+    <footer className="bg-white border-t border-gray-200 text-gray-600 py-4 mt-70">
+      <div className=" mx-auto px-4 flex flex-col sm:flex-row items-center justify-between text-sm">
         <p>
           &copy; {new Date().getFullYear()} URL Scraperr. All rights reserved.
         </p>

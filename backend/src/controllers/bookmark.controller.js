@@ -13,7 +13,7 @@ export async function create(req, res) {
 
     const summaryLines = summary.split('\n').map(line => line.trim()).filter(Boolean);
     const title = summaryLines[0] || "Untitled";
-    const smallText = summaryLines.slice(4, 7).join('\n') || "No summary available";
+    const smallText = summaryLines.slice(4).join('\n') || "No summary available";
 
     const favicon = `${new URL(url).origin}/favicon.ico`;
 

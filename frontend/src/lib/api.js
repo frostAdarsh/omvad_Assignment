@@ -15,3 +15,17 @@ export const logout = async () => {
   return res.data;
 };
 
+export const createURL = async (urlData) => {
+  const res = await axiosInstance.post("/bookmark/create", urlData);
+  return res.data;
+};
+
+export const getAllURL = async () => {
+  const res = await axiosInstance.get("/bookmark/all");
+  return res.data;
+};
+
+export const removeURL = async (id) => {
+  const res = await axiosInstance.delete(`/bookmark/${id}`);
+  return res.data;
+};
